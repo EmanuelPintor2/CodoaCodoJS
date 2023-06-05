@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+ }
+
+
+ /* navbar */
+
+ header{
+   background-color: #353a40;
+   padding-bottom: 1%;
+   display:flexbox;
+   width: 100%;
+   position:relative;
+   top:0;
+   z-index: 1;
+   
+ }
+
+.logo{
+    display: inline-block;
+    margin-top:10px ;
+    
+}
+.logo img{
+    width: 28%;
+    height: 20%;
+    margin-left: 27%;
+}
+.logo h6{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+nav{
+    display: inline-block;
+    padding: 33px;
+    
+}
+.barra{
+    padding-right: 60px;
+}
+.barra a{
+    text-decoration: none;
+    color: rgb(153, 147, 147);
+    font-size: 16px; 
+    padding: 5px;
+}
+.barra a:hover{
+    color: #fff;
+}
+#ticket{
+    color: green;
+}
+
+
+/* carrusel con boton y txt */
+
+.row h4{
+    text-align: justify;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 85%;
+    font-size: 28px;
+    font-weight: bold;
+   
+
+}
+.row p{
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    top: 60%;
+    left: 53%;
+}
+
+.btn-outline-light{
+    
+    position: absolute;
+    top: 80%;
+    left: 70%;
+}
+.btn-success{
+    position: absolute;
+    top: 80%;
+    left: 83%;
+}
+
+
+/* expo */
+.container-fluid{
+    padding-top: 2%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 2%;
+}
+.container-fluid h6,h2{
+    margin-bottom: 3px;
+    text-align: center;
+}
+.container-fluid h2{
+    margin-bottom: 2%;
+}
+
+.col-2 h5{
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    
+}
+.js{
+    font-size: 15px;
+    margin-top: 6%;
+    margin-right: 4%;
+    padding: 3px;
+    color:rgb(0, 0, 0);
+    background-color:rgb(205, 148, 42);
+    border-radius: 20%;
+}
+.react{
+    font-size: 15px;
+    margin-top: 6%;
+    padding: 3px;
+    color: #fff;
+    background-color: rgb(11, 90, 90);
+    border-radius: 20%;
+}
+.nego{
+    font-size: 15px;
+    margin-top: 6%;
+    margin-right: 4%;
+    padding: 3px;
+    color: #fff;
+    background-color: grey;
+    border-radius: 20%;
+}
+.start{
+    font-size: 15px;
+    margin-top: 6%;
+    padding: 3px;
+    color: #fff;
+    background-color: red;
+    border-radius: 20%;
+}
+.row img{
+    padding: 0;
+    width: 238px;
+    height: 251px;
+}
+
+
+
+/* BSOCt */
+.col-6{
+    display: inline-block;
+    background-color: #353a40;
+}
+.bot{
+    color: white;
+    background-color: transparent;
+    outline-style:solid;
+    border-radius: 10%;
+    outline-color:white ;
+}
+.bot:hover{
+    background-color: #fff;
+    color: black;
+}
+.col-6 img{
+    padding: 0px;
+    margin: 0px;
+    height: 400px;
+    width: 100%;
+    border-right: solid 1px white;
+}
+.col-6 h3,h5{
+    color: #fff;
+    margin-top:30px ;
+}
+.col-6 h5{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+/* form */
+.formu{
+    background-color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.formu h6,h2{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.nom{
+    margin:0.5%;
+}
+.area{
+    border-radius: 2%;
+    margin-top: 1%;
+}
+
+#rec{
+    margin-right: 30%;
+    color: gray;
+}
+.formu button{
+    margin-top: 1%;
+    font-size: 18px;
+    color: white;
+    padding: 1% 23% ;
+    background-color: rgb(119, 174, 75);
+    border: none;
+    
+}
+
+
+/* FOOT*/
+
+footer{
+    height: 100%;
+    position: relative;
+    background-color: rgb(25, 63, 94);
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-bottom: 2%;
+}
+footer .row{
+    margin-top: 0%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    
+    padding-top: 1%;
+}
+footer.col-2{
+    padding-right: 2%;
+}
+footer .col-1{
+    padding-left: 2%;
+}
